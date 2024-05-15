@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <test verbose="2" preserve-order="true" name="freecodecamp Testing">
+        <classes>
+            <class name="Tests.CreateAccTest"/>
+            <class name="Tests.TestLogin"/>
+            <class name="Tests.TestCourseStart"/>
+            <class name="Tests.TestChangeUserName"/>
+            <class name="Tests.getCertificateTest"/>
+            <class name="Tests.donation_test"/>
+            <class name="Tests.TestForumSearch"/>
+        </classes>
+    </test>
+</suite>
